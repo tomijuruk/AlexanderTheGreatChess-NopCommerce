@@ -34,9 +34,9 @@
     <Content Update="App_Data\DataProtectionKeys\*.xml" CopyToPublishDirectory="Never" />
 
     <!--<Compile Remove="Plugins\**;Themes\**" />-->
-    <!--<Content Remove="Plugins\**;Themes\**" />-->
+    <Content Remove="Plugins\**;Themes\**" />
     <EmbeddedResource Remove="Plugins\**;Themes\**" />
-    <!--<None Remove="Plugins\**;Themes\**" />-->
+    <None Remove="Plugins\**;Themes\**" />
     <None Include="Plugins\**" CopyToPublishDirectory="PreserveNewest" Exclude="Plugins\**\runtimes\**;Plugins\**\ref\**;Plugins\**\*.pdb" />
 
     <Content Include="Themes\**" CopyToPublishDirectory="PreserveNewest" CopyToOutputDirectory="Never" />
