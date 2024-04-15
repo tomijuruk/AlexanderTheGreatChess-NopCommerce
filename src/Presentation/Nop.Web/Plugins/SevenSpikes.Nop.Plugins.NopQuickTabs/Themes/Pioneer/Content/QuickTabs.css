@@ -1,0 +1,28 @@
+﻿
+.productTabs-header ul {
+    display: none; /*hide nav until fully loaded*/
+}
+.productTabs-body > div {
+    display: none; /*hide content until fully loaded*/
+}
+.ui-tabs .product-specs-box,
+.ui-tabs .product-reviews-page,
+.ui-tabs .full-description {
+    display: block;
+}
+.ui-tabs .product-specs-box,
+.ui-tabs .full-description,
+.ui-tabs .custom-tab {
+    max-width: 1100px;
+    margin: auto;
+}
+.ui-tabs tr:first-child th {
+    padding-top: 0;
+}
+.ui-tabs tr:last-child td {
+    padding-bottom: 0;
+}
+.ui-tabs .product-review-list {
+    margin-top: 20px;
+    padding: 0px;
+}
