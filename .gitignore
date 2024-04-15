@@ -176,8 +176,8 @@ src/Presentation/Nop.Web/.config/*
 # src/Presentation/Nop.Web/App_Data/appsettings.json
 src/Presentation/Nop.Web/App_Data/TempUploads/*
 !src/Presentation/Nop.Web/App_Data/TempUploads/Index.htm
-src/Presentation/Nop.Web/App_Data/DataProtectionKeys/*
-!src/Presentation/Nop.Web/App_Data/DataProtectionKeys/Index.htm
+# src/Presentation/Nop.Web/App_Data/DataProtectionKeys/*
+# !src/Presentation/Nop.Web/App_Data/DataProtectionKeys/Index.htm
 src/Presentation/Nop.Web/node_modules/*
 # src/Presentation/Nop.Web/Plugins/*
 !src/Presentation/Nop.Web/Plugins/Uploaded
