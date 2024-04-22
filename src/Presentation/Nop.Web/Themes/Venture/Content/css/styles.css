@@ -3943,7 +3943,7 @@ td.ui-datepicker-week-end {
 	text-align: center;
     font-size: 14px;
 }
-.overview .add-to-cart-button,
+.add-to-cart-button,
 .variant-overview .add-to-cart-button {
     padding: 15.5px 25px;
     width: 260px;
@@ -3959,11 +3959,11 @@ td.ui-datepicker-week-end {
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
-.overview .add-to-cart-button:hover,
+.add-to-cart-button:hover,
 .variant-overview .add-to-cart-button:hover {
     background: #ebbf0d;
 }
-.light-theme .overview .add-to-cart-button,
+.light-theme .add-to-cart-button,
 .light-theme .variant-overview .add-to-cart-button {
     color: #fff;
 }

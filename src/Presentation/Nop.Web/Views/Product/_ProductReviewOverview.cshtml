@@ -10,10 +10,12 @@
 {
     <div class="product-reviews-overview">
         <div class="product-review-box">
+            <b>@((((Model.RatingSum * 5) / Model.TotalReviews) / 5).ToString("0.0"))</b>&nbsp;
             <div class="rating">
                 <div style="width: @(ratingPercent)%">
                 </div>
             </div>
+            &nbsp;(<a style="text-transform: none;text-decoration:underline;" href="#quickTab-reviews">@Model.TotalReviews ratings</a>)
         </div>
 
         @if (Model.TotalReviews > 0)

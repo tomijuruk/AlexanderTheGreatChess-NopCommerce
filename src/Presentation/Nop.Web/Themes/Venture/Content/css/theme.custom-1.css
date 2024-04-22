@@ -23,7 +23,7 @@
 .attributes .option-list input[type='checkbox']:checked ~ label:after,
 td .ui-state-active,
 .attributes .qq-upload-button:hover,
-.overview .add-to-cart-button,
+.add-to-cart-button,
 .variant-overview .add-to-cart-button,
 .overview-buttons .add-to-wishlist-button:hover,
 .overview-buttons .add-to-compare-list-button:hover,
@@ -164,7 +164,7 @@ td .ui-state-active,
 .footer-map-holder .title:hover,
 .newsletter-email .newsletter-subscribe-button:hover,
 .contact-vendor-button:hover,
-.overview .add-to-cart-button:hover,
+.add-to-cart-button:hover,
 .variant-overview .add-to-cart-button:hover,
 td .ui-state-active:hover,
 .mfp-container .apply-shipping-button:hover,
@@ -247,7 +247,7 @@ td .ui-state-active:hover,
 .product-no-reviews a:hover,
 .overview .value a,
 .variant-overview .value a,
-.overview .product-price,
+.product-price,
 .variant-overview .product-price,
 .tier-prices .item-price,
 .product-specs-box .data-table .spec-value a:hover,
@@ -433,6 +433,10 @@ td .ui-state-active:hover,
 }
 
 .admin-header-links + .header + .overlayOffCanvas + .responsive-nav-wrapper-parent + * {
-     margin-top: 168px;
+     margin-top: 110px;
 }
+.header+.overlayOffCanvas+.responsive-nav-wrapper-parent+* {
+     margin-top: 75px;
+}
+
 }

@@ -78,6 +78,8 @@ namespace Nop.Web.Models.Catalog
         public DateTime? RentalEndDate { get; set; }
 
         public DateTime? AvailableEndDate { get; set; }
+        
+        public DateTime? UpdatedOnUtc { get; set; }
 
         public ManageInventoryMethod ManageInventoryMethod { get; set; }
 

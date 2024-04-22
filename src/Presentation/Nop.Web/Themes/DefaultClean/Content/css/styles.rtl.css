@@ -2459,7 +2459,7 @@ label, label + * {
   color: #444;
 }
 
-.overview .add-to-cart-button,
+.add-to-cart-button,
 .variant-overview .add-to-cart-button {
   height: 43px;
   border: none;
@@ -2470,8 +2470,8 @@ label, label + * {
   text-transform: uppercase;
 }
 
-.overview .add-to-cart-button:hover,
-.overview .add-to-cart-button:focus,
+.add-to-cart-button:hover,
+.add-to-cart-button:focus,
 .variant-overview .add-to-cart-button:hover,
 .variant-overview .add-to-cart-button:focus {
   background-color: #248ece;

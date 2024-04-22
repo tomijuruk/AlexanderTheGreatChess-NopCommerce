@@ -1501,6 +1501,7 @@ namespace Nop.Web.Factories
                 HasSampleDownload = product.IsDownload && product.HasSampleDownload,
                 DisplayDiscontinuedMessage = !product.Published && _catalogSettings.DisplayDiscontinuedMessageForUnpublishedProducts,
                 AvailableEndDate = product.AvailableEndDateTimeUtc,
+                UpdatedOnUtc = product.UpdatedOnUtc,
                 VisibleIndividually = product.VisibleIndividually,
                 AllowAddingOnlyExistingAttributeCombinations = product.AllowAddingOnlyExistingAttributeCombinations
             };
