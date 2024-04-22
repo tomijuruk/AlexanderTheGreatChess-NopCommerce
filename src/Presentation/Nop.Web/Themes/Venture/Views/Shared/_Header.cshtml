@@ -139,6 +139,10 @@
 @if (isHomePage && string.IsNullOrEmpty(homePageSliderVideoLink) && homePageSlider != null && !String.IsNullOrEmpty(await homePageSlider.RenderHtmlContentAsync()))
 {
     @homePageSlider;
+    <div class="play-button-wrapper">
+        <h3 class="video-button-title">@T("Custom.HomeBannerTitle")</h3>
+        <h4 class="video-button-subtitle">@T("Custom.HomeBannerSubtitle")</h4>
+    </div>
 }
 else if (isHomePage && !string.IsNullOrEmpty(homePageSliderVideoLink))
 {
